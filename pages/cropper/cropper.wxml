@@ -1,0 +1,33 @@
+<!--pages/cutter/cutter.wxml-->
+<view class='layout'>
+
+  <image id='image' class='image' src='{{imagePath}}' mode='aspectFit'></image>
+
+
+  <view class='stage' style='width:{{stageWidth}}px;height:{{stageHeight}}px;left:{{stageLeft}}px;top:{{stageTop}}px;'
+  bindtouchstart='fnTouchStart' bindtouchmove='fnTouchMove' bindtouchend='fnTouchEnd' bindtouchcancel='fnTouchCancel'>
+  
+
+    <view id='box' class='box' style='width:{{boxWidth}}px;height:{{boxHeight}}px;left:{{boxLeft}}px;top:{{boxTop}}px;'>
+      <view id='lt' class='lt'></view>
+      <view id='lb' class='lb'></view>
+      <view id='rt' class='rt'></view>
+      <view id='rb' class='rb'></view>
+
+      <view class='line-v' style='left:33.3%;'></view>
+      <view class='line-v' style='left:66.6%;'></view>
+      <view class='line-h' style='top:33.3%;'></view>
+      <view class='line-h' style='top:66.6%;'></view>
+    </view>
+
+  </view>
+
+
+
+  <canvas canvas-id='canvas' style='height:{{canvasHeight}}px;width:{{canvasWidth}}px;position:fixed;background-color:red;left:5000rpx;'>
+
+  </canvas>
+
+</view>
+
+ 

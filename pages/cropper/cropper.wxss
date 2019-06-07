@@ -1,0 +1,87 @@
+/* pages/cutter/cutter.wxss */
+:host{
+  position: relative;
+}
+
+
+.layout{
+    position: absolute;
+    left: 0rpx;
+    right: 0rpx;
+    top: 0rpx;
+    bottom: 0rpx;
+    background-color: black;
+  }
+
+.stage{
+  position: absolute;
+}
+
+.image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.box{
+  position: absolute;
+  border: 4rpx solid grey;
+  box-sizing: border-box;
+  box-shadow: 0rpx 0rpx 0rpx 2000rpx rgba(0, 0, 0, 0.5)
+}
+
+
+.lt{
+  position: absolute;
+  height: 48rpx;
+  width: 48rpx;
+  left: -6rpx;
+  top: -6rpx;
+  border-left: 12rpx solid white;
+  border-top: 12rpx solid white;
+}
+
+.lb{
+  position: absolute;
+  height: 48rpx;
+  width: 48rpx;
+  left: -6rpx;
+  bottom: -6rpx;
+  border-left: 12rpx solid white;
+  border-bottom: 12rpx solid white;
+}
+
+.rt{
+  position: absolute;
+  height: 48rpx;
+  width: 48rpx;
+  right: -6rpx;
+  top: -6rpx;
+  border-right: 12rpx solid white;
+  border-top: 12rpx solid white;
+}
+
+.rb{
+  position: absolute;
+  height: 48rpx;
+  width: 48rpx;
+  right: -6rpx;
+  bottom: -6rpx;
+  border-right: 12rpx solid white;
+  border-bottom: 12rpx solid white;
+}
+
+.line-v{
+  position: absolute;
+  width: 2rpx;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.line-h{
+  height: 2rpx;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
