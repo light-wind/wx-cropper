@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "cropper":"cropper"
+    "cropper":"/pages/cropper/cropper"
   },
   "disableScroll": true
 }
